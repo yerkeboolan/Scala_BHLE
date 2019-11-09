@@ -1,8 +1,9 @@
-name := "lab 9"
+name := "lab 10"
 
 version := "0.1"
 
 scalaVersion := "2.12.8"
+
 
 lazy val akkaVersion = "2.5.25"
 lazy val elastic4sVersion = "6.2.10"
@@ -16,5 +17,6 @@ libraryDependencies ++= Seq(
   "com.sksamuel.elastic4s" %% "elastic4s-core" % elastic4sVersion,
   "com.sksamuel.elastic4s" %% "elastic4s-http" % elastic4sVersion,
   "com.sksamuel.elastic4s" %% "elastic4s-json4s" % elastic4sVersion,
+  "ch.qos.logback" % "logback-classic" % "1.1.3" % Runtime,
   "org.scalatest" %% "scalatest" % "3.0.5" % Test
 )
