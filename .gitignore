@@ -1,7 +1,7 @@
 # Created by https://www.gitignore.io/api/sbt,scala,intellij
 
 #folder logs
-lab10/src/main/resources
+lab10/src/main/resources/application.conf
 
 ### Intellij ###
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and Webstorm
